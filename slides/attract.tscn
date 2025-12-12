@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://6u52mjf5vhk2"]
+
+[ext_resource type="Script" uid="uid://m2g8a3dd8ue1" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://m2g8a3dd8ue1"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -125.0
+offset_top = -86.0
+offset_right = 1155.0
+offset_bottom = 938.0
+color = Color(0.07058824, 0.3882353, 1, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Wellcome to RFM"
